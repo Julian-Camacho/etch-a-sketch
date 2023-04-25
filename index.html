@@ -13,12 +13,13 @@
     <div id="header">
         <h6>Select the size</h6>
         <button id="popup">Select</button>
+        <div class="message"></div>
     </div>
     <div id="board"></div>
     <div id="footer">
-        <button>Black</button>
-        <button>Random</button>
-        <button>Reset</button>
+        <button onclick="setColor('black')">Black</button>
+        <button onclick="setColor('random')">Random</button>
+        <button onclick="resetBoard()">Reset</button>
     </div>
 </body>
 </html>
