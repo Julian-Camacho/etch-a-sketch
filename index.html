@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
-    <title>Etch-a-Sketch</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Etch-a-Sketch</h1>
-      <div class="controls">
-        <button onclick="createGrid()">New Grid</button>
-        <input type="color" id="colorPicker" />
-        <button onclick="resetGrid()">Reset</button>
-      </div>
-      <div id="grid"></div>
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <div id="header">
+        <h6>Select the size</h6>
+        <button id="popup">Select</button>
     </div>
-  </body>
+    <div id="board"></div>
+    <div id="footer">
+        <button>Black</button>
+        <button>Random</button>
+        <button>Reset</button>
+    </div>
+</body>
 </html>
